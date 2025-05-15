@@ -1,8 +1,8 @@
-import product1 from "../assets/images/images3.png";
-import product2 from "../assets/images/im1.png";
+import product1 from "../assets/images/velocity.png";
+import product2 from "../assets/images/Urban Tee.png";
 import product3 from "../assets/images/headphone.png";
-import product4 from "../assets/images/jacket.png";
-import product5 from "../assets/images/Shadow cap.png";
+import product4 from "../assets/images/Jacket.png";
+import product5 from "../assets/images/Shadow Cap.png";
 
 export const products = [
   {

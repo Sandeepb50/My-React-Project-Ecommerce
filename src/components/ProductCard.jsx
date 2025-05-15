@@ -14,7 +14,7 @@ export default function ProductCard({ product }) {
         borderRadius: "8px",
         boxShadow: "0 2px 10px rgba(0, 0, 0, 0.1)",
         overflow: "hidden",
-        margin: "15px", // This provides the gap between product cards
+        margin: "15px",
         fontFamily: "'Roboto', sans-serif",
         display: "flex",
         flexDirection: "column",
@@ -28,7 +28,7 @@ export default function ProductCard({ product }) {
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
-        height: "100%",
+        height: "100%"
     };
 
     const imageStyle = {
@@ -36,18 +36,18 @@ export default function ProductCard({ product }) {
         height: "200px",
         objectFit: "cover",
         borderRadius: "8px",
-        transition: "transform 0.3s ease",
+        transition: "transform 0.3s ease"
     };
 
     const titleStyle = {
         fontSize: "16px",
         fontWeight: "bold",
         margin: "10px 0",
-        color: "#6A0DAD", // Violet brand color
+        color: "#333"
     };
 
     const priceStyle = {
-        color: "#9B4D96", // A lighter violet tone for price
+        color: "#FF5722", // e-commerce standard price color
         fontSize: "18px",
         marginBottom: "8px",
     };
@@ -56,11 +56,11 @@ export default function ProductCard({ product }) {
         color: "#888",
         fontSize: "14px",
         marginTop: "8px",
-        fontWeight: "normal",
+        fontWeight: "normal"
     };
 
     const buttonStyle = {
-        backgroundColor: "#6A0DAD", // Violet brand color
+        backgroundColor: "#8A2BE2", // standard orange for action
         color: "#fff",
         border: "none",
         padding: "12px 0",
@@ -74,7 +74,7 @@ export default function ProductCard({ product }) {
     };
 
     const handleHover = (e, hover) => {
-        e.target.style.backgroundColor = hover ? "#8A2BE2" : "#6A0DAD"; // Neon violet hover effect
+        e.target.style.backgroundColor = hover ? "#e55e2a" : "#FF5722";
     };
 
     return (
